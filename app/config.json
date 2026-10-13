@@ -1,0 +1,9 @@
+{
+  "app": "git-unlock",
+  "version": "0.9.0",
+  "activated": false,
+  "release": null,
+  "modules": [
+    "core"
+  ]
+}
