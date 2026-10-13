@@ -2,7 +2,7 @@
   "app": "git-unlock",
   "version": "1.0.0",
   "activated": true,
-  "release": null,
+  "release": "v1.0.0",
   "modules": [
     "core",
     "export"
