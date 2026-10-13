@@ -38,7 +38,7 @@ Rode `python main.py` quando achar que terminou.
 
 ## Pistas de investigação
 
-Você não precisa de nenhum comando exótico. Estes bastam:
+Você não precisa de nenhum comando exótico. esses da:
 
 ```bash
 git status
@@ -50,29 +50,11 @@ git diff main..<branch>
 git tag -n
 ```
 
-Perguntas que valem a pena se fazer:
-
-- Quais branches existem e o que cada uma tem de diferente?
-- O que as mensagens de commit sugerem sobre o estado de cada branch?
-- Quais arquivos cada branch altera? Algum deles parece perigoso para a `main`?
-- A `main` andou desde que as branches foram criadas?
-- Quais tags já existem e a que commits apontam?
-
 ## Testes
 
 ```bash
 python -m unittest discover -s tests
 ```
-
-Os testes cobrem a validação. Eles não resolvem o desafio por você.
-
-## O que será avaliado
-
-- Investigação do histórico antes de agir
-- Escolha da branch correta e justificativa
-- Integração com resolução consciente de conflito
-- Commits e tag corretos
-- Capacidade de explicar suas decisões na conversa
 
 ## Aviso
 
